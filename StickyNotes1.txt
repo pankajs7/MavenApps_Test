@@ -1,0 +1,49 @@
+1.
+<parent>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-parent</artifactId>
+	    <version>1.5.6.RELEASE</version>
+	 </parent>
+	
+	<dependencies>
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-web</artifactId>
+	    </dependency>
+	</dependencies>
+	
+	<properties>
+	 <java.version>1.8</java.version>
+	</properties>  
+
+2. @SpringBootApplication
+2. make a controller -> use @RestController
+@RequestMapping (/catalog)-> class level use 
+3. @RequestMapping("/{userId}") -> method level
+e.g. getCatalog(@PathVariable("userId") String userId){
+4. @PathVariable
+5.@RequestMapping(method=RequestMethod.POST)
+
+
+JSON
+Java Script Object Notation
+Business Service
+
+Microservices :
+** Cotroller
+@RestController
+@RequestMapping("/catalog") 
+
+@RestTemplate
+@WebClient
+
+gradle clean build 
+gradle bootrun
+18002335552
+
+Design Patterns
+1. Adapter Pattern
+2. Singleton Pattern
+3. Factory pattern or Factory Method pattern
+4. Observer
+5. Builder
